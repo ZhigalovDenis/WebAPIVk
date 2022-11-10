@@ -43,7 +43,6 @@ namespace WebAPIVk.Controllers
             };
             await _letterFromPost.Insert(obj);
             await _letterFromPost.Save();
-            var y = 5;
             return Ok();
         }
     }
