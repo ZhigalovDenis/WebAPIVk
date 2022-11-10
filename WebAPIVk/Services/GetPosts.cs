@@ -6,7 +6,7 @@ namespace WebAPIVk.Services
 {
     public class GetPosts : IPosts<List<string>, int>
     {
-        const int COUNT = 50;
+        const int COUNT = 5;
         VkApi api = new VkApi();
         List<string> posts = new List<string>();
 
